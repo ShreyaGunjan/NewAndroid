@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Aboutyou">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        android:id="@+id/aboutyou_ll"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/about_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#8b8b8c"
+            android:text="ABOUT YOU" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="371dp"
+        android:layout_height="26dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        android:id="@+id/profile_ll"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/aboutyou_ll"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="24dp">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/add_profile_ll"
+        android:layout_gravity="center"
+        android:layout_below="@+id/profile_ll"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="53dp">
+
+        <TextView
+            android:id="@+id/add_profile_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            android:textColor="#4c3dd2"
+            android:text="ADD PROFILE" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="371dp"
+        android:layout_height="26dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:id="@+id/experience_ll"
+        android:layout_below="@+id/add_profile_ll"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="24dp">
+
+         />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/add_experience_ll"
+        android:layout_gravity="center"
+        android:layout_below="@+id/experience_ll"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="53dp">
+
+        <TextView
+            android:id="@+id/add_experience_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#4c3dd2"
+            android:text="ADD Experience" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:id="@+id/license_ll"
+        android:layout_below="@+id/add_experience_ll"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="24dp">
+
+         />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/add_license_ll"
+        android:layout_gravity="center"
+        android:layout_below="@+id/license_ll"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="53dp">
+
+        <TextView
+            android:id="@+id/add_license_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#4c3dd2"
+            android:text="ADD License/Certification" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/education_ll"
+        android:layout_width="371dp"
+        android:layout_height="26dp"
+        android:layout_above="@+id/add_education_ll"
+        android:layout_margin="5dp"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="24dp">
+
+         />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/add_education_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/skills_ll"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="53dp">
+
+        <TextView
+            android:id="@+id/add_education_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="ADD EDUCATION"
+            android:textColor="#4c3dd2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/skills_ll"
+        android:layout_width="371dp"
+        android:layout_height="26dp"
+        android:layout_above="@+id/add_skills_ll"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="24dp">
+
+         />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/add_skills_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="53dp">
+
+        <TextView
+            android:id="@+id/add_skills_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="ADD SKILL OR OTHER"
+            android:textColor="#4c3dd2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/background_ll"
+        android:layout_width="371dp"
+        android:layout_height="26dp"
+        android:layout_above="@+id/add_background_ll"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="24dp">
+
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/add_background_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="191dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="53dp">
+
+        <TextView
+            android:id="@+id/add_background_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="ADD BACKGROUND CHECK ($10)"
+            android:textColor="#4c3dd2" />
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
